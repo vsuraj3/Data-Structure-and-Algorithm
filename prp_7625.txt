@@ -1,0 +1,21 @@
+//SURAJ VISHWAKARMA cs610 7625 prp
+
+Bugs: 
+1. when initial value is 0 the Hubs and Authority values is 'NaN'.
+2. The input file should contains only integer; character or floating point number throws exception.
+
+########################################################################################################
+
+To Compile the Program:
+javac hits7625.java 
+javac pgrk7625.java
+
+To Run the Program:
+java hits7625 iterations initial_value filename
+java pgrk7625 iterations initial_value filename
+
+eg. java hits7625 23 -1 samplegraph.txt
+
+#######################################################################################################
+
+Tested the program on javac compiler 13.0.1
